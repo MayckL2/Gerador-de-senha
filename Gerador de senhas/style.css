@@ -1,0 +1,43 @@
+body{
+    background-color: darkslategray;
+    color: white;
+    font-family: sans-serif;
+    margin: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+main p{
+    margin: 5px 0;
+}
+main #quantC, #quantS{
+    margin: 5px 0;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main button{
+    margin: 5px 0;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+@media (max-width: 450px) {
+    main{
+        margin: 0px;
+        width: 100vw;
+        border-radius: 0px;
+    }
+}
